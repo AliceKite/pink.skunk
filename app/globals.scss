@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: 39, 100%, 78%;
+    --primary-shine: 39, 100%, 70%;
+    --background: 276, 21.1%, 13.9%;
+    --text-gradient: linear-gradient(
+      180deg,
+      hsl(var(--primary)),
+      hsl(var(--primary-shine))
+    );
+  }
+
+  body,
+  html {
+    @apply h-full;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    background: var(--text-gradient);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .gradient-link {
+    background: var(--text-gradient);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: 0 88%;
+    transition: background-size 250ms ease, color 250ms ease;
+
+    &:hover {
+      background-size: 100% 88%;
+      color: hsl(var(--background));
+    }
+  }
+}
