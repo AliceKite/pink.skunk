@@ -43,7 +43,8 @@ export default function Home() {
 
       <section className="my-8 max-w-sm text-lg">
         <div className="sm:block flex justify-between items-end leading-none gradient-text font-black">
-          <h1 className="text-6xl">Alice (or Fall)</h1>
+          <h1 className="text-6xl">Alice</h1>
+          <h3 className="text-2xl"> (or Fall, Adam, Callie, et al)</h3>
           <h4 className="text-xl">(i am {years})</h4>
         </div>
 
