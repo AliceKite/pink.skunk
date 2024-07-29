@@ -21,8 +21,8 @@ const links = [
   },
   {
     name: 'resume',
-    handle: 'PDF View',
-    href: '/Alice_Kite_Resume.pdf'
+    handle: 'View',
+    href: '/resume'
   }  
 ];
 
@@ -49,9 +49,14 @@ export default function Home() {
         </div>
 
         <p className="">
-          dumb multiplicative being, i play fight games and develop cloud resources to play ps2 fighting games
           <br />
-          They/It/He/Hole, i am from dumb american south, currently living in las vegas
+          dumb multiplicative being, i play fight games and develop cloud resources to make a viable solution to play ps2 games online
+          <br />
+          <br />
+          they/it/he/hole, i am from dumb american south, currently living in las vegas
+          <br />
+          <br />
+          into photography, cloud technology, fighting games, running, cooking
         </p>
         <ul className="flex flex-col list-none mt-8">
           {links.map((link, id) => (
