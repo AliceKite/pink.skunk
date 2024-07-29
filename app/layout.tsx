@@ -6,8 +6,8 @@ import './globals.scss';
 const body = Figtree({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'lavender dot dog',
-  description: "jormdan 's landing page",
+  title: 'pink dot skunk',
+  description: "awices 's landing page",
 };
 
 export default function RootLayout({
