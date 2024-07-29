@@ -45,13 +45,13 @@ export default function Home() {
         <div className="sm:block flex justify-between items-end leading-none gradient-text font-black">
           <h1 className="text-6xl">Alice</h1>
           <h3 className="text-2xl"> (or Fall, Adam, Callie, et al)</h3>
-          <h4 className="text-xl">(i am {years})</h4>
+          <h4 className="text-xl">(i have spent {years} on this godforsaken planet)</h4>
         </div>
 
         <p className="">
-          dumb multiplicative being, i play fight games and develop cloud servers
+          dumb multiplicative being, i play fight games and develop cloud resources to play ps2 fighting games
           <br />
-          They/It/He/Hole, i am from dumb american south
+          They/It/He/Hole, i am from dumb american south, currently living in las vegas
         </p>
         <ul className="flex flex-col list-none mt-8">
           {links.map((link, id) => (
