@@ -15,6 +15,11 @@ const links = [
     href: 'https://x.com/kitskoonk',
   },
   {
+    name: 'patreon',
+    handle: 'FateParsec',
+    href: 'https://www.patreon.com/FateParsec'
+  },
+  {
     name: 'resume',
     handle: 'PDF View',
     href: '/Alice_Kite_Resume.pdf'
