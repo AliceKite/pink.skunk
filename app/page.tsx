@@ -57,6 +57,9 @@ export default function Home() {
           <br />
           <br />
           into photography, cloud technology, fighting games, running, cooking
+          <br />
+          <br />
+          actively looking for devops work, always appreciating assistance in the search
         </p>
         <ul className="flex flex-col list-none mt-8">
           {links.map((link, id) => (
