@@ -14,6 +14,11 @@ const links = [
     handle: '@kitskoonk',
     href: 'https://x.com/kitskoonk',
   },
+  {
+    name: 'resume',
+    handle: 'PDF View',
+    href: '/Alice_Kite_Resume.pdf'
+  }  
 ];
 
 // const bday = DateTime.fromISO('1998-08-19');
