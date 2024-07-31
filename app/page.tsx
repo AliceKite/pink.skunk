@@ -42,10 +42,12 @@ export default function Home() {
       />
 
       <section className="my-8 max-w-sm text-lg">
-        <div className="sm:block flex flex-col justify-between leading-none gradient-text font-black">
+        <div className="sm:block flex flex-col justify-between leading-none gradient-text font-black space-y-2">
           <h1 className="text-6xl">Alice</h1>
-          <h3 className="text-2xl"> (or Fall, Adam, Callie, et al)</h3>
-          <h4 className="text-xl">(i have spent {years} on this godforsaken planet)</h4>
+          <div>
+            <h3 className="text-2xl"> (or Fall, Adam, Callie, et al)</h3>
+            <h4 className="text-xl">i have spent {years} on this godforsaken planet</h4>
+          </div>
         </div>
 
         <p className="">
