@@ -46,6 +46,7 @@ export default function Home() {
           <h1 className="text-6xl">Alice</h1>
           <div>
             <h3 className="text-2xl"> (or Fall, Adam, Callie, et al)</h3>
+            <br />
             <h4 className="text-xl">i have spent {years} on this godforsaken planet</h4>
           </div>
         </div>
