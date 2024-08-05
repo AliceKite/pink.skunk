@@ -13,33 +13,64 @@ export default function ResumePage() {
           </h4>
         </div>
         <div className="text-center">
-          <h4 className="text-3xl font-bold">
-            Proven Leadership &bull; Computer Science &bull; IT Technician
+          <h4 className="text-2xl font-bold">
+            Proven Leadership &bull; Computer Science &bull; Cloud Technician
           </h4>
-          <p className="text-lg text-start">
-            Accomplished and motivated professional with years of experience and
-            education in IT operations, technical assistance, critical thinking,
-            innovative solutions, and multifaceted collaboration in fast-paced
-            environments. Assist in defining vision, developing strategies, and
-            driving continuous improvement. Career track includes contributions
-            to high-performance work cultures with a demonstrated ability to
-            partner throughout all levels of the organization.
-          </p>
         </div>
         <div className="text-center">
           <h4 className="text-2xl font-bold">Areas of Expertise</h4>
           <p className="text-lg">
-            Team Collaboration &bull; Project Management &bull; Organizational
+            Cloud Development &bull; Database Management &bull; Team Collaboration &bull; Project Management &bull; Organizational
             Effectiveness &bull; Creative Problem Solving &bull; Detail-Oriented
             &bull; Strategic Planning &bull; Process Improvement &bull; Policy
             Implementation &bull; Front-End Development &bull; Data Analysis
             &bull; Machine Learning &bull; Software Troubleshooting &bull;
-            Software Development &bull; Team Leadership &bull; Customer Service
-            &bull;
+            Software Development &bull; Team Leadership
           </p>
         </div>
         <div className="text-center">
           <h4 className="text-2xl font-bold">Experience</h4>
+        </div>
+        <div className="text-center">
+          <h4 className="text-2xl font-bold">Projects</h4>
+          <div className="space-y-8">
+            <div className="text-start">
+              <h4 className="text-lg font-bold">
+                Cloud Gaming Infrastructure
+                <br />
+                January 2024 - Ongoing
+              </h4>
+              <ul className="text-lg list-disc list-inside">
+                <li>
+                  Used Terraform and AWS to create cloud servers used as an
+                  alternative framework for online gaming.
+                </li>
+                <li>
+                  Created a solution for an online gaming community of 100+
+                  players who were unable to play together previously.
+                </li>
+                <li>
+                  Learned how to use Terraform from scratch to create all of my
+                  resources using only existing documentation.
+                </li>
+                <li>
+                  Experimented with different instance types and machine images
+                  to optimize performance.
+                </li>
+                <li>
+                Actively creating resources in multiple regions to allow for individuals from around the world 
+                to play against one another.
+                </li>
+                <li>
+                  Made my code publicly available to be used by any community
+                  without existing online frameworks for their game.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="text-center">
+          <h4 className="text-2xl font-bold">Employment</h4>
           <div className="space-y-8">
             <div className="text-start">
               <h4 className="text-lg font-bold">
@@ -109,53 +140,14 @@ export default function ResumePage() {
           </div>
         </div>
         <div className="text-center">
-          <h4 className="text-2xl font-bold">Projects</h4>
-          <div className="space-y-8">
-            <div className="text-start">
-              <h4 className="text-lg font-bold">
-                Personal Project
-                <br />
-                January 2024 - Ongoing
-              </h4>
-              <ul className="text-lg list-disc list-inside">
-                <li>
-                  Used Terraform and AWS to create cloud servers used as an
-                  alternative framework for online gaming.
-                </li>
-                <li>
-                  Created a solution for an online gaming community of 100+
-                  players who were unable to play together previously.
-                </li>
-                <li>
-                  Learned how to use Terraform from scratch to create all of my
-                  resources using only existing documentation.
-                </li>
-                <li>
-                  Experimented with different instance types and machine images
-                  to optimize performance.
-                </li>
-                <li>
-                  Currently in the process of creating modules to be able to
-                  create resources within more than one region for optimal
-                  latency between each individual player.
-                </li>
-                <li>
-                  Made my code publicly available to be used by any community
-                  without existing online frameworks for their game.
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div className="text-center">
           <h4 className="text-2xl font-bold">Education & Credentials</h4>
           <p className="text-lg">
             <b>UNIVERSITY OF MISSISSIPPI | August 2017 - May 2021 |</b> Bachelor
             in Multidisciplinary Studies – Computer Science, Japanese,
             International Studies
             <br />
-            <b>TECHNOLOGY PROFILE|</b> HTML5 | CSS | JavaScript | Java | Linux |
-            MySQL | Git | Python | Rust | AWS | Terraform
+            <b>TECHNOLOGY PROFILE|</b> AWS | Terraform | HTML5 | CSS | JavaScript | Java | Linux |
+            MySQL | Git | Python | Rust | Active Directory
             <br />
             <b>CERTIFICATIONS|</b> AWS Cloud Practitioner
           </p>
