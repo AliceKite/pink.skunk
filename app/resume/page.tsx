@@ -8,13 +8,13 @@ export default function ResumePage() {
           <Link href="/">Back</Link>
           <h1 className="text-6xl gradient-text font-black">Alice Kite</h1>
           <h4 className="text-xl">
-            901-318-2467 &bull; alicefkite@gmail.com &bull;
-            https://github.com/AliceKite
+            901-318-2467 &bull; alicefkite@gmail.com 
+            
           </h4>
         </div>
         <div className="text-center">
           <h4 className="text-2xl font-bold">
-            Proven Leadership &bull; Computer Science &bull; Cloud Technician
+            Computer Science &bull; Cloud Technician
           </h4>
         </div>
         <div className="text-center">
@@ -22,52 +22,13 @@ export default function ResumePage() {
           <p className="text-lg">
             Cloud Development &bull; Database Management &bull; Team Collaboration &bull; Project Management &bull; Organizational
             Effectiveness &bull; Creative Problem Solving &bull; Detail-Oriented
-            &bull; Strategic Planning &bull; Process Improvement &bull; Policy
-            Implementation &bull; Front-End Development &bull; Data Analysis
-            &bull; Machine Learning &bull; Software Troubleshooting &bull;
-            Software Development &bull; Team Leadership
+            &bull; Process Improvement &bull; Policy
+            Implementation &bull; Data Analysis
+            &bull; Software Troubleshooting 
           </p>
         </div>
         <div className="text-center">
           <h4 className="text-2xl font-bold">Experience</h4>
-        </div>
-        <div className="text-center">
-          <h4 className="text-2xl font-bold">Projects</h4>
-          <div className="space-y-8">
-            <div className="text-start">
-              <h4 className="text-lg font-bold">
-                Cloud Gaming Infrastructure
-                <br />
-                January 2024 - Ongoing
-              </h4>
-              <ul className="text-lg list-disc list-inside">
-                <li>
-                  Used Terraform and AWS to create cloud servers used as an
-                  alternative framework for online gaming.
-                </li>
-                <li>
-                  Created a solution for an online gaming community of 100+
-                  players who were unable to play together previously.
-                </li>
-                <li>
-                  Learned how to use Terraform from scratch to create all of my
-                  resources using only existing documentation.
-                </li>
-                <li>
-                  Experimented with different instance types and machine images
-                  to optimize performance.
-                </li>
-                <li>
-                Actively creating resources in multiple regions to allow for individuals from around the world 
-                to play against one another.
-                </li>
-                <li>
-                  Made my code publicly available to be used by any community
-                  without existing online frameworks for their game.
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
         <div className="text-center">
           <h4 className="text-2xl font-bold">Employment</h4>
@@ -80,18 +41,14 @@ export default function ResumePage() {
               </h4>
               <ul className="text-lg list-disc list-inside">
                 <li>
-                  Drove 30+ high profile and visible projects from creation
+                  Drove 30+ high profile projects from creation
                   through completion for Twitch, Epic, Nintendo, and Brawl
                   Stars.
                 </li>
                 <li>
-                  Tracked and maintained all administration, including in-game
+                  Tracked and maintained in-game
                   scores and handling of all support to ensure streamlined
                   operations.
-                </li>
-                <li>
-                  Provided world class customer and client service in a
-                  professional and courteous manner.
                 </li>
                 <li>
                   Utilized proven and demonstrated knowledge of the field to
@@ -134,6 +91,45 @@ export default function ResumePage() {
                 <li>
                   Directly worked with cybersecurity division in ensuring our
                   team met with Coalfire compliance policies.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div className="text-center">
+          <h4 className="text-2xl font-bold">Projects</h4>
+          <div className="space-y-8">
+            <div className="text-start">
+              <h4 className="text-lg font-bold">
+                Cloud Gaming Infrastructure
+                <br />
+                January 2024 - Ongoing
+              </h4>
+              <ul className="text-lg list-disc list-inside">
+              <li>
+                  Solution for an online gaming community of hundreds of
+                  players who were unable to play together due to distance and 
+                  inefficient existing infrastructure.
+                </li>
+                <li>
+                  Used Terraform and AWS to create cloud servers used as an
+                  alternative framework for online gaming.
+                </li>
+                <li>
+                  Learned how to use Terraform from scratch to create all of my
+                  resources using only existing documentation.
+                </li>
+                <li>
+                  Tested different instance types and machine images
+                  to optimize performance.
+                </li>
+                <li>
+                Actively creating resources in multiple regions to allow for individuals from around the world 
+                to play against one another.
+                </li>
+                <li>
+                  Made my code open source to be used by any community
+                  without existing online frameworks for their game.
                 </li>
               </ul>
             </div>
