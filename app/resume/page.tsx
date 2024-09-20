@@ -142,8 +142,8 @@ export default function ResumePage() {
             in Multidisciplinary Studies – Computer Science, Japanese,
             International Studies
             <br />
-            <b>TECHNOLOGY PROFILE|</b> AWS | Terraform | HTML5 | CSS | JavaScript | Java | Linux |
-            MySQL | Git | Python | Rust | Active Directory
+            <b>TECHNOLOGY PROFILE|</b> AWS | Terraform | Linux | Active Directory | Git | SQL | HTML5 | CSS | JavaScript | Java |
+            Python | Rust 
             <br />
             <b>CERTIFICATIONS|</b> AWS Cloud Practitioner
           </p>
