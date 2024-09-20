@@ -56,7 +56,7 @@ export default function Home() {
           dumb multiplicative being, i play fight games and develop cloud resources to make a viable solution to play ps2 games online
           <br />
           <br />
-          they/it/he/hole, i am from dumb american south, currently living in las vegas
+          they/it/he/hole, i am from funny american south, currently living in las vegas
           <br />
           <br />
           into photography, cloud technology, fighting games, running, cooking
